@@ -4,8 +4,8 @@
   <head>
    <meta charset author = "Yasmin">
    <meta charset = "UTF-8"/>
-   
    <link href= "estilo.css" rel="stylesheet"/>
+   
    <title> Lista de mercado </title>
    
   </head>
@@ -21,30 +21,44 @@
         <th>Alimento</th>
         <th>Kcal</th> 
         <th>Imagem</th>
+        <th>Preço</th>
+        <th>Quantidade</th>
        </tr> 
        
        <tr>
         <td>Alface</td> 
         <td>20 kcal</td>
         <td><img src ="alface.jpg" alt="alface" width="125px"></td>
+        <td class="preco">R$ 2.00 </td> 
+        <td> <input class="quant" name="quant" placeholder="Quant"/> </td>
        </tr>
        <tr>
        
        <td>Nutella</td>
        <td>200 kcal</td> 
        <td><img src ="ntella.jpg" alt="nutella"></td>
+       <td class="preco">R$ 15.00</td> 
+       <td> <input class="quant" name="quant" placeholder="Quant"/> </td>
        </tr>
        
        <tr>
         <td>Carne</td> 
         <td>50 kcal</td>
         <td><img src ="carne.png" alt="carne"></td>
+        <td class="preco">R$ 16.00</td> 
+        <td> <input class="quant" name="quant" placeholder="Quant"/> </td>
       </tr>
     </table>
+    
+       </br>
+       <button id="botao">Comprar</button>
+       
     </div>
+   
     
     
    <!-- <h3> :p </h3> -->
+   <script src= "scriptmercado.js" type="text/javascript"/>
   </body>
 
 </html>
